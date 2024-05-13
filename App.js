@@ -9,6 +9,8 @@ import domtoimage from 'dom-to-image';
 
 
 
+
+
 import Button from './components/Button';
 import ImageViewer from './components/ImageViewer'; 
 import CircleButton from './components/CircleButton';
@@ -123,7 +125,7 @@ export default function App() {
         <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
       </EmojiPicker>
 
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
       </GestureHandlerRootView>
   );
 }
